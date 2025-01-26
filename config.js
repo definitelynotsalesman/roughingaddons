@@ -1,0 +1,16 @@
+import Settings from "../Ameratsu/core/Settings"
+import DefaultConfig from "../Ameratsu/core/DefaultConfig"
+
+const config = new DefaultConfig("RoughingAddons", "data/settings.json")
+
+    config
+        .addSwitch({
+            category: "Party",
+            configName: "politekick",
+            title: "Polite Kick",
+            description: ""
+        })
+        
+
+const mySettings = new Settings("RoughingAddons", config, "data/colorscheme.json")
+export default () => mySettings.settings
