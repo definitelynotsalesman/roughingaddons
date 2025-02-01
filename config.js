@@ -10,6 +10,13 @@ const config = new DefaultConfig("RoughingAddons", "data/settings.json")
             title: "Polite Kick",
             description: ""
         })
+
+        .addSwitch({
+            category: "Kuudra",
+            configName: "VClip/LavaClip",
+            title: "VClip",
+            description: ""
+        })
         
 
 const mySettings = new Settings("RoughingAddons", config, "data/colorscheme.json")
