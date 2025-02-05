@@ -1,5 +1,4 @@
-import { } from "../Bloomcore/utils/Utils"
+import mySettings from "../config"
+import "./features/VClip.js"
 
-const S08PacketPlayerPosLook = Java.type("net.minecraft.network.play.server.S08PacketPlayerPosLook")
-const C06PacketPlayerPosLook = Java.type("net.minecraft.network.play.client.C03PacketPlayer$C06PacketPlayerPosLook")
-const C0BPacketEntityAction = Java.type("net.minecraft.network.play.client.C0BPacketEntityAction")
+register("command", () => Chatlib.command("joininstance KUUDRA_INFERNAL")).setName("t5")
