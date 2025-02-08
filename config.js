@@ -19,5 +19,5 @@ const config = new DefaultConfig("RoughingAddons", "data/settings.json")
         })
         
 
-const mySettings = new Settings("RoughingAddons", config, "data/colorscheme.json")
+const mySettings = new Settings("RoughingAddons", config, "data/colorscheme.json").setCommand("roughingaddons", ["ra"])
 export default () => mySettings.settings
