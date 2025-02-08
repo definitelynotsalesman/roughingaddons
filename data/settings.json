@@ -1,22 +1,13 @@
 [
     {
-        "category": "General",
+        "category": "Clip",
         "settings": [
-
-        ]
-    },
-
-    {
-        "category": "Dungeons",
-        "settings": [
-
-        ]
-    },
-
-    {
-        "category": "Party",
-        "settings": [
-            
+            {
+                "type": 10,
+                "name": "lavaVclipKeybind",
+                "value": 21
+            }
         ]
     }
+
 ]   
